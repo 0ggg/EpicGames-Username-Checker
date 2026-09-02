@@ -1,49 +1,49 @@
-﻿# EpicGames Username Checker
+# EpicGames Username Checker
 
-ÏúÏ»ÏºÏ® ┘üÏ¡ÏÁ Ï¬┘ê┘üÏ▒ ÏúÏ│┘àÏºÏí Ïº┘ä┘àÏ│Ï¬Ï«Ï»┘à┘è┘å Ï╣┘ä┘ë ┘à┘åÏÁÏ® Epic Games Ï¿Ï│Ï▒Ï╣Ï® Ï╣Ïº┘ä┘èÏ® ┘àÏ╣ Ï»Ï╣┘à Ïº┘äÏ½Ï▒┘èÏ»ÏºÏ¬.
+أداة فحص توفر أسماء المستخدمين على منصة Epic Games بسرعة عالية مع دعم الثريدات.
 High-speed Epic Games display name availability checker with multi-threading support.
 
 ---
 
-## Warning / Ï¬┘åÏ¿┘è┘ç ┘çÏº┘à
+## Warning / تنبيه هام
 
-**┘è┘à┘åÏ╣ ┘à┘åÏ╣Ïº┘ï Ï¿ÏºÏ¬Ïº┘ï ÏÑÏ▓Ïº┘äÏ® Ï¡┘é┘ê┘é Ïº┘ä┘àÏÀ┘êÏ▒.**
+**يمنع منعاً باتاً إزالة حقوق المطور.**
 **Removal of developer rights/credits is strictly prohibited.**
 
 - **Programmer:** `@umw_m`
 
 ---
 
-## Arabic Guide / Ïº┘äÏ»┘ä┘è┘ä Ïº┘äÏ╣Ï▒Ï¿┘è
+## Arabic Guide / الدليل العربي
 
-### 1. Ïº┘ä┘àÏ¬ÏÀ┘äÏ¿ÏºÏ¬
+### 1. المتطلبات
 - Python 3.8+
-- Ï¬Ï½Ï¿┘èÏ¬ Ïº┘äÏ¡Ï▓┘à Ïº┘ä┘àÏÀ┘ä┘êÏ¿Ï®:
+- تثبيت الحزم المطلوبة:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. ÏÀÏ▒┘è┘éÏ® Ïº┘äÏ¬Ï┤Ï║┘è┘ä
-1. Ï¬Ï½Ï¿┘èÏ¬ Ïº┘äÏ¡Ï▓┘à Ïº┘ä┘àÏÀ┘ä┘êÏ¿Ï®:
+### 2. طريقة التشغيل
+1. تثبيت الحزم المطلوبة:
    ```bash
    pip install -r requirements.txt
    ```
-2. Ï¬Ï┤Ï║┘è┘ä Ïº┘äÏúÏ»ÏºÏ®:
+2. تشغيل الأداة:
    ```bash
    python main.py
    ```
-   - Ï│┘èÏÀ┘äÏ¿ ┘à┘å┘â `Enter Username Length (3-16) :` ÏºÏ»Ï«┘ä Ïº┘äÏÀ┘ê┘ä (3-16)
-   - Ï│┘èÏÀ┘äÏ¿ ┘à┘å┘â `Threads :` ÏºÏ»Ï«┘ä Ï╣Ï»Ï» Ïº┘äÏ½Ï▒┘èÏ»ÏºÏ¬ (┘àÏ½Ïº┘ä 3)
+   - سيطلب منك `Enter Username Length (3-16) :` ادخل الطول (3-16)
+   - سيطلب منك `Threads :` ادخل عدد الثريدات (مثال 3)
 
-### 3. Ïº┘ä┘àÏ«Ï▒Ï¼ÏºÏ¬
-- Ïº┘äÏÀÏ¿ÏºÏ╣Ï® Ïº┘ä┘àÏ¿ÏºÏ┤Ï▒Ï®:
+### 3. المخرجات
+- الطباعة المباشرة:
   - `[+] Available : username`
   - `[-] Taken : username`
   - `[-] Rate Limited : username`
 
 ---
 
-## English Guide / Ïº┘äÏ»┘ä┘è┘ä Ïº┘äÏÑ┘åÏ¼┘ä┘èÏ▓┘è
+## English Guide / الدليل الإنجليزي
 
 ### 1. Requirements
 - Python 3.8+
@@ -72,9 +72,9 @@ pip install -r requirements.txt
 
 ---
 
-## Rights & Credits / Ïº┘äÏ¡┘é┘ê┘é
+## Rights & Credits / الحقوق
 
-- **Programmer / Ïº┘ä┘àÏÀ┘êÏ▒:** `@umw_m`
+- **Programmer / المطور:** `@umw_m`
 - **EpicGames Tool Dev:** `Legend ~ .gg/cupspy`
-- **Ï¬┘åÏ¿┘è┘ç:** ┘è┘à┘åÏ╣ ┘à┘åÏ╣Ïº┘ï Ï¿ÏºÏ¬Ïº┘ï ÏÑÏ▓Ïº┘äÏ® Ï¡┘é┘ê┘é Ïº┘ä┘àÏÀ┘êÏ▒ Ïú┘ê Ï¬Ï╣Ï»┘è┘ä┘çÏº.
+- **تنبيه:** يمنع منعاً باتاً إزالة حقوق المطور أو تعديلها.
 - **Notice:** Removal or modification of developer credits is strictly prohibited.
